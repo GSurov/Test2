@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: #4a90e2;
+    color: white;
+}
+
+/* контейнер карточек */
+#cards {
+    display: flex;          /* flexbox */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* сами карточки */
+.card {
+    width: 200px;
+    padding: 20px;          /* отступы внутри */
+    border-radius: 15px;    /* скругленные углы */
+    border: 2px solid #ddd; /* рамка */
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* тень */
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+}
+
+/* hover-эффект */
+.card:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: #4a90e2;
+    color: white;
+}
+
+/* контейнер карточек */
+#cards {
+    display: flex;          /* flexbox */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* сами карточки */
+.card {
+    width: 200px;
+    padding: 20px;          /* отступы внутри */
+    border-radius: 15px;    /* скругленные углы */
+    border: 2px solid #ddd; /* рамка */
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* тень */
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+}
+
+/* hover-эффект */
+.card:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}

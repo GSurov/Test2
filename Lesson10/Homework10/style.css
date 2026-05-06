@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #000;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+input {
+  padding: 6px;
+  width: 200px;
+}
+
+/* Цветные кнопки */
+.colors {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.color-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.red { background: red; }
+.blue { background: blue; }
+.green { background: green; }
+.yellow { background: yellow; }
+.purple { background: purple; }

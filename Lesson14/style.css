@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin: 5px 0;
+    font-size: 28px;
+}
+
+.secondary {
+    font-size: 18px;
+    opacity: 0.8;
+}

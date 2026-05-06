@@ -1,0 +1,39 @@
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px; */
+
+    grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+
+    min-height: 100vh;
+    
+}
+
+.item{
+    border: 1px solid black;
+    height: 50px;
+}
+
+header{
+    background: aliceblue;
+    grid-area: header;
+}
+
+.sidebar{
+    background:antiquewhite;
+    grid-area: sidebar;
+}
+
+.content{
+    background: aqua;
+    grid-area: content;
+}
+
+footer{
+    background: aquamarine;
+    grid-area: footer;
+}

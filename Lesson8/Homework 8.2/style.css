@@ -1,0 +1,21 @@
+body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 5px;
+        }
+
+        .cell {
+            padding: 10px;
+            text-align: center;
+            border-radius: 6px;
+            background: #e3f2fd;
+        }
+
+        .cell:nth-child(even) {
+            background: #bbdefb;
+        }

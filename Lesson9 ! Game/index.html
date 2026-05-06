@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Битва Магов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="battle-field">
+        <div class="card">
+            <img src="" alt="Герой">
+            <h2>Герой</h2>
+            <div class="health-bar">
+                <div id="hero-health" class="health-fill"></div>
+            </div>
+            <p id="hero-hp-text">100 / 100</p>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Враг">
+            <h2>Злодей</h2>
+            <div class="health-bar">
+                <div id="enemy-health" class="health-fill"></div>
+            </div>
+            <p id="enemy-hp-text">100 / 100</p>
+        </div>
+    </div>
+
+    <div id="log">Начните битву!</div>
+
+    <div class="controls">
+        <button class="btn-attack" onclick="attack()">⚔️ Атака</button>
+        <button class="btn-heal" onclick="heal()">💊 Лечение</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

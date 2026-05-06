@@ -1,0 +1,26 @@
+
+body{
+    background-color: azure;
+}
+
+.main{
+    background-color: aqua;
+}
+
+#hello{
+    font-size: 10px;
+}
+
+.container{
+    display: flex;
+    width: 550px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

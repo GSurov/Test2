@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>LocalStorage Практика</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>LocalStorage Практика</h1>
+
+  <!-- Задание 1 -->
+  <section>
+    <h2>1. Сохранение имени</h2>
+    <input type="text" id="nameInput" placeholder="Введите имя">
+    <button id="saveNameBtn">Сохранить имя</button>
+    <p id="greeting"></p>
+  </section>
+
+  <!-- Задание 2 -->
+  <section>
+    <h2>2. Счётчик посещений</h2>
+    <p id="visitsText"></p>
+  </section>
+
+  <!-- Задание 3 -->
+  <section>
+    <h2>3. Тема сайта</h2>
+    <button id="lightThemeBtn">Светлая тема</button>
+    <button id="darkThemeBtn">Тёмная тема</button>
+  </section>
+
+  <!-- Задание 4 -->
+  <section>
+    <h2>4. Любимый цвет</h2>
+    <div class="colors">
+      <button class="color-btn red" data-color="red"></button>
+      <button class="color-btn blue" data-color="blue"></button>
+      <button class="color-btn green" data-color="green"></button>
+      <button class="color-btn yellow" data-color="yellow"></button>
+      <button class="color-btn purple" data-color="purple"></button>
+    </div>
+    <button id="resetColorBtn">Сбросить</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

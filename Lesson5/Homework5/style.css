@@ -1,0 +1,83 @@
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    background: #ddd;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+    }
+}
+
+
+h1 {
+    font-size: 24px; 
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 33.33%;
+    }
+}
+
+
+.orientation-box {
+    background: lightblue;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (orientation: landscape) {
+    .orientation-box {
+        background: lightgreen;
+        height: 200px;
+    }
+}

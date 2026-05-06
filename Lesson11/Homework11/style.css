@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+/* ТЁМНАЯ ТЕМА */
+.dark-theme {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
